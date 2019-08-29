@@ -10,9 +10,11 @@ function createFoodHTML(foodObj) {
 
   let foodHTML = `
         <section>
-        <h3>Name:${foodObj.name}</h3>
-        <p>Category:${foodObj.category}</p>
-        <p>Ethnicity:${foodObj.ethnicity}</p>
+          <ul>
+            <li><h3>Name:${foodObj.name}</li>
+            <li>Category:${foodObj.category}</li>
+            <li>Ethnicity:${foodObj.ethnicity}</li>
+          </ul>
         </section>
     `;
 
